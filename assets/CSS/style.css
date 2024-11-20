@@ -1,0 +1,50 @@
+body{
+    direction: rtl;
+}
+.home{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.443) 0%, 
+    rgba(0, 0, 0, 0.447) 100%), url(../img/Home.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.aref-ruqaa-regular {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+  
+.aref-ruqaa-bold {
+    font-family: "Aref Ruqaa", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.crown{
+    width: 40px;
+    rotate: -20deg;
+    padding-bottom: 5px;
+}
+
+.nav-link:hover{
+    color: #ffc107;
+}
+.mainColor{
+    color: #ffc107;
+}
+.mainBgColor{
+    background-color: #ffc107;
+}
+
+.getLine{
+    width: 4rem;
+    height: 0.3rem;
+    margin: auto;
+    opacity: 1;
+}
+
+#portfolio_sheet .row .col:hover{
+    transition: 0.5s;
+    scale: 1.05;
+}
+
